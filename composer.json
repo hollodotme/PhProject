@@ -1,0 +1,24 @@
+{
+    "name": "hollodotme/phproject",
+    "description": "PHP project template with vagrant and composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Holger Woltersdorf",
+            "email": "hw@hollo.me",
+            "homepage": "http://github.com/hollodotme"
+        }
+    ],
+
+    "require" : {
+        "php": ">=5.3",
+        "hollodotme/utilities": "dev-master"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "hollodotme\\PhProject\\": "dist/"
+        }
+    }
+}

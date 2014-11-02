@@ -1,0 +1,23 @@
+{
+    "name": "{%vendor_name%}/{%project_name%}",
+    "description": "Your project description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "{%author_name%}",
+            "email": "{%author_email%}",
+            "homepage": "{%author_homepage%}"
+        }
+    ],
+
+    "require" : {
+
+    },
+
+    "require-dev": {
+
+    },
+
+    {%composer_autoload_block%}
+}
